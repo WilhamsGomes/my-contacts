@@ -26,7 +26,9 @@
 			"indent": "off",
 			"react/jsx-indent": "off",
 			"no-tabs": "off",
-			"import/prefer-default-export": "off"
+			"import/prefer-default-export": "off",
+			"react/jsx-indent-props": "off",
+			"react/jsx-no-bind":0
     }
 
 }
