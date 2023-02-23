@@ -39,6 +39,10 @@ export default function ContactForm({ buttonLabel }) {
 		}
 	}
 
+	function handlePhoneChange(event) {
+		setPhone(event.target.value);
+	}
+
 	function handleSubmit(event) {
 		event.preventDefault();
 		// console.log({
@@ -72,7 +76,7 @@ export default function ContactForm({ buttonLabel }) {
 				<Input
 					placeholder="Telefone"
 					value={phone}
-					onChange={(event) => setPhone(event.target.value)}
+					onChange={handlePhoneChange}
 				/>
 			</FormGroup>
 
